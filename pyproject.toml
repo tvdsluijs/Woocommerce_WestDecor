@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "westdecor woocommerce importer"
+version = "0.1"
+description = "A python script to import the Westdecor feed into Woocommerce"
+authors = ["Theo van der Sluijs <info@itheo.tech>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+WooCommerce = "^3.0.1"
+requests = "^2.30.0"
+toml = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
