@@ -8,9 +8,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-WooCommerce = "^3.0.1"
+WooCommerce = "^3.0.0"
 requests = "^2.30.0"
 toml = "^0.10.2"
+pandas = "^2.0.3"
 
 
 [build-system]
